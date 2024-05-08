@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./thng-bo-gi-mn-thnh-cng.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="thng-bo-gi-mn-thnh-cng">
+      <div class="gi-hng1">Giỏ hàng</div>
+      <div class="thng-bo-gi-mn-thnh-cng-child"></div>
+      <div class="bc-xu3">Bạc xỉu</div>
+      <div class="tr-sa-trn">Trà sữa trân châu</div>
+      <b class="total1">Total:</b>
+      <div class="tr-v-menu1" id="trVMenu">Trở về menu</div>
+      <div class="div15">30.000</div>
+      <div class="div16">50.000</div>
+      <div class="thng-bo-gi-mn-thnh-cng-item"></div>
+      <img class="home-icon2" alt="" src="./public/home1.svg" id="homeIcon" />
+
+      <img
+        class="search-icon3"
+        alt=""
+        src="./public/search1.svg"
+        id="searchIcon"
+      />
+
+      <img
+        class="shopping-cart-icon1"
+        alt=""
+        src="./public/shopping-cart3.svg"
+      />
+
+      <div class="thng-bo-gi-mn-thnh-cng-inner"></div>
+      <div class="div17">4</div>
+      <div class="div18">1</div>
+      <div class="div19">2</div>
+      <img
+        class="add-circle-outline5"
+        alt=""
+        src="./public/add-circle-outline2.svg"
+      />
+
+      <img
+        class="add-circle-outline6"
+        alt=""
+        src="./public/add-circle-outline2.svg"
+      />
+
+      <img
+        class="remove-circle-outline5"
+        alt=""
+        src="./public/remove-circle-outline2.svg"
+      />
+
+      <img
+        class="remove-circle-outline6"
+        alt=""
+        src="./public/remove-circle-outline2.svg"
+      />
+
+      <img class="cancel-icon3" alt="" src="./public/cancel1@2x.png" />
+
+      <img class="cancel-icon4" alt="" src="./public/cancel1@2x.png" />
+
+      <div class="div20">105.000</div>
+      <div class="thng-bo-gi-mn-thnh-cng-child1"></div>
+      <div class="xc-nhn1">XÁC NHẬN</div>
+      <img class="image-146-icon1" alt="" src="./public/image-1461@2x.png" />
+
+      <div class="khng-ly-trn1">“Không lấy trân châu “</div>
+      <img class="cancel-icon5" alt="" src="./public/cancel1@2x.png" />
+
+      <div class="remove-circle-outline7">
+        <img class="vector-icon1" alt="" />
+
+        <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+
+        <div class="okok">okok</div>
+      </div>
+      <div class="div21">25.000</div>
+      <div class="div22">1</div>
+      <div class="nc-da-matcha2">Nước dừa Matcha</div>
+      <div class="t-ngt-gip1">“ ít ngọt giúp e “</div>
+      <img
+        class="add-circle-outline7"
+        alt=""
+        src="./public/add-circle-outline2.svg"
+      />
+
+      <div class="thng-bo-gi-mn-thnh-cng-child2"></div>
+      <img class="image-148-icon2" alt="" src="./public/image-1481@2x.png" />
+
+      <img class="rectangle-icon" alt="" src="./public/rectangle-13.svg" />
+
+      <img class="image-179-icon" alt="" src="./public/image-179@2x.png" />
+
+      <div class="gi-mn-thnh-container">
+        <p class="gi-mn-thnh">Gọi món thành công</p>
+      </div>
+      <img
+        class="thng-bo-gi-mn-thnh-cng-child3"
+        alt=""
+        src="./public/rectangle-131.svg"
+      />
+
+      <div class="ok" id="oKText">OK</div>
+      <img class="image-136-icon" alt="" src="./public/image-136@2x.png" />
+    </div>
+
+    <script>
+      var trVMenu = document.getElementById("trVMenu");
+      if (trVMenu) {
+        trVMenu.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu.html";
+        });
+      }
+      
+      var homeIcon = document.getElementById("homeIcon");
+      if (homeIcon) {
+        homeIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu.html";
+        });
+      }
+      
+      var searchIcon = document.getElementById("searchIcon");
+      if (searchIcon) {
+        searchIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu1.html";
+        });
+      }
+      
+      var oKText = document.getElementById("oKText");
+      if (oKText) {
+        oKText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,240 @@
+.tm-kim {
+  position: absolute;
+  top: 45px;
+  left: 28px;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  text-align: center;
+}
+.mn-hnh-hin-th-menu-child3 {
+  position: absolute;
+  top: 106px;
+  left: 24px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  width: 346px;
+  height: 60px;
+}
+.search10 {
+  position: absolute;
+  top: 125px;
+  left: 74px;
+  color: var(--color-darkgray-200);
+  text-align: center;
+}
+.home-icon8,
+.search-icon13 {
+  position: absolute;
+  top: 123px;
+  left: 33px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.home-icon8 {
+  top: 799px;
+  left: 60px;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+}
+.search-icon14,
+.shopping-cart-icon7 {
+  position: absolute;
+  top: 800px;
+  left: 188px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.shopping-cart-icon7 {
+  top: 803px;
+  left: 294px;
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+}
+.mn-hnh-hin-th-menu-child4 {
+  position: absolute;
+  top: 798px;
+  left: 324px;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+  width: 10px;
+  height: 10px;
+}
+.div63 {
+  position: absolute;
+  top: 797px;
+  left: 326px;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.mn-hnh-hin-th-menu-child5 {
+  position: absolute;
+  top: 36px;
+  left: 308px;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+}
+.search11 {
+  position: absolute;
+  top: 118px;
+  left: 65px;
+  color: var(--color-darkgray-200);
+  text-align: center;
+}
+.search-icon15 {
+  position: absolute;
+  top: 115px;
+  left: 315px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.bc-xu7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.bc-xu-wrapper,
+.bc-xu7,
+.group-child31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 36px;
+}
+.group-child31 {
+  top: 35.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 311px;
+  height: 1px;
+}
+.group-parent4,
+.group-parent5,
+.group-parent6 {
+  position: absolute;
+  top: 188px;
+  left: 45px;
+  width: 310px;
+  height: 36px;
+  cursor: pointer;
+}
+.group-parent5,
+.group-parent6 {
+  top: 234px;
+}
+.group-parent6 {
+  top: 280px;
+}
+.mn-hnh-hin-th-menu-child8 {
+  position: absolute;
+  top: 388.5px;
+  left: 186.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 300px;
+}
+.mn-hnh-hin-th-menu-child9 {
+  position: absolute;
+  top: 684px;
+  left: 4.5px;
+  width: 388.5px;
+  height: 9.9px;
+  object-fit: contain;
+}
+.nc-chanh1 {
+  display: inline-block;
+}
+.group-wrapper,
+.mn-hnh-hin-th-menu-inner1,
+.nc-chanh1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 78px;
+  height: 13px;
+}
+.mn-hnh-hin-th-menu-inner1 {
+  top: 507px;
+  left: 254px;
+  cursor: pointer;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+}
+.image-183-icon1 {
+  position: absolute;
+  top: 550px;
+  left: 16px;
+  width: 152px;
+  height: 96px;
+  object-fit: cover;
+}
+.sa-chua-vit1 {
+  position: absolute;
+  top: 658px;
+  left: 39px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 123px;
+  height: 13px;
+}
+.image-187-icon,
+.mn-hnh-hin-th-menu-child10,
+.mn-hnh-hin-th-menu-child11 {
+  position: absolute;
+  top: 389px;
+  left: 222px;
+  width: 135px;
+  height: 111px;
+  object-fit: cover;
+}
+.mn-hnh-hin-th-menu-child10,
+.mn-hnh-hin-th-menu-child11 {
+  left: 27px;
+}
+.mn-hnh-hin-th-menu-child11 {
+  top: 550px;
+  left: 222px;
+  height: 100px;
+}
+.sa-chua-np1,
+.tr-sa-thi1 {
+  position: absolute;
+  top: 510px;
+  left: 41px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 117px;
+  height: 16px;
+}
+.sa-chua-np1 {
+  top: 658px;
+  left: 240px;
+  width: 123px;
+}
+.mn-hnh-hin-th-menu1 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  height: 852px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

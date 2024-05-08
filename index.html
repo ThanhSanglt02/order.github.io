@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mn-hnh">
+      <img class="mn-hnh-child" alt="" src="./public/ellipse-1@2x.png" />
+
+      <div class="gc-ph-coffe-container">
+        <span class="gc-ph-coffe">GÓC PHỐ COFFE XIN CHÀO !</span>
+        <span class="span"> </span>
+      </div>
+      <div class="mn-hnh-item" id="rectangle"></div>
+      <div class="bt-u">Bắt đầu</div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu.html";
+        });
+      }
+      </script>
+  </body>
+</html>

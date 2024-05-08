@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./chn-mn2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="chn-mn">
+      <div class="chn-mn-child"></div>
+      <img class="image-148-icon" alt="" src="./public/image-1482@2x.png" />
+
+      <div class="chn-mn-item"></div>
+      <div class="khng-bt-buc">Không bắt buộc</div>
+      <div class="div">25.000</div>
+      <div class="nc-da-matcha">Nước dừa Matcha</div>
+      <div class="div1">1</div>
+      <div class="ghi-ch">Ghi chú :</div>
+      <div class="vi-s-kt">
+        với sự kết hợp giữa vị đắng thuần túy của cà phê tây nguyên hòa quyện
+        với chút béo và ngọt ngào của sữa tươi tạo nên một hương vị khó quên
+      </div>
+      <div class="chn-mn-inner"></div>
+      <img
+        class="add-circle-outline"
+        alt=""
+        src="./public/add-circle-outline.svg"
+      />
+
+      <img
+        class="remove-circle-outline"
+        alt=""
+        src="./public/remove-circle-outline.svg"
+      />
+
+      <img
+        class="material-symbolsarrow-back-io-icon"
+        alt=""
+        src="./public/materialsymbolsarrowbackiosrounded.svg"
+        id="materialSymbolsarrowBackIoIcon"
+      />
+
+      <div class="rectangle-parent" id="groupContainer">
+        <div class="group-child"></div>
+        <div class="thm-vo-gi">Thêm vào giỏ hàng -25.000</div>
+      </div>
+      <div class="t-ngt-dm">ít ngọt dùm em</div>
+    </div>
+
+    <script>
+      var materialSymbolsarrowBackIoIcon = document.getElementById(
+        "materialSymbolsarrowBackIoIcon"
+      );
+      if (materialSymbolsarrowBackIoIcon) {
+        materialSymbolsarrowBackIoIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu-nc-gii-kht.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu-nc-gii-kht.html";
+        });
+      }
+      </script>
+  </body>
+</html>

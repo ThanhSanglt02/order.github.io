@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./xa-mn.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="xa-mn">
+      <div class="gi-hng2">Giỏ hàng</div>
+      <b class="total2">Total:</b>
+      <div class="tr-v-menu2" id="trVMenu">Trở về menu</div>
+      <div class="xa-mn-child"></div>
+      <img class="home-icon3" alt="" src="./public/home1.svg" id="homeIcon" />
+
+      <img
+        class="search-icon4"
+        alt=""
+        src="./public/search1.svg"
+        id="searchIcon"
+      />
+
+      <div class="shopping-cart-group">
+        <img class="shopping-cart-icon2" alt="" />
+
+        <div class="group-child12"></div>
+        <div class="div31">4</div>
+      </div>
+      <img class="vector-icon3" alt="" src="./public/vector.svg" />
+
+      <div class="div32">2</div>
+      <img
+        class="add-circle-outline12"
+        alt=""
+        src="./public/add-circle-outline1.svg"
+      />
+
+      <img
+        class="remove-circle-outline12"
+        alt=""
+        src="./public/remove-circle-outline1.svg"
+      />
+
+      <img class="cancel-icon6" alt="" src="./public/cancel@2x.png" />
+
+      <div class="div33">65.000</div>
+      <div class="xa-mn-item" id="rectangle1"></div>
+      <div class="xc-nhn2">XÁC NHẬN</div>
+      <div class="khng-ly-trn3">“Không lấy trân châu “</div>
+      <div class="rectangle-parent5" id="groupContainer1">
+        <div class="group-child13"></div>
+        <div class="tr-sa-olong2">Trà sữa olong</div>
+        <div class="div34">40.000</div>
+        <img class="image-134-icon1" alt="" src="./public/image-1341@2x.png" />
+      </div>
+      <img
+        class="cancel-icon7"
+        alt=""
+        src="./public/cancel@2x.png"
+        id="cancelIcon1"
+      />
+
+      <img
+        class="remove-circle-outline13"
+        alt=""
+        src="./public/remove-circle-outline1.svg"
+      />
+
+      <div class="div35">1</div>
+      <div class="t-ngt-gip2">“ ít ngọt giúp e “</div>
+      <img
+        class="add-circle-outline13"
+        alt=""
+        src="./public/add-circle-outline1.svg"
+      />
+
+      <div class="group" id="groupContainer2">
+        <div class="div36">25.000</div>
+        <div class="nc-da-matcha3">Nước dừa Matcha</div>
+        <div class="group-child13"></div>
+      </div>
+      <img class="image-150-icon" alt="" src="./public/image-148@2x.png" />
+    </div>
+
+    <script>
+      var trVMenu = document.getElementById("trVMenu");
+      if (trVMenu) {
+        trVMenu.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu.html";
+        });
+      }
+      
+      var homeIcon = document.getElementById("homeIcon");
+      if (homeIcon) {
+        homeIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu.html";
+        });
+      }
+      
+      var searchIcon = document.getElementById("searchIcon");
+      if (searchIcon) {
+        searchIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu1.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./thng-bo-gi-mn-thnh-cng.html";
+        });
+      }
+      
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          window.location.href = "./chn-mn1.html";
+        });
+      }
+      
+      var cancelIcon1 = document.getElementById("cancelIcon1");
+      if (cancelIcon1) {
+        cancelIcon1.addEventListener("click", function (e) {
+          window.location.href = "./xa-mn.html";
+        });
+      }
+      
+      var groupContainer2 = document.getElementById("groupContainer2");
+      if (groupContainer2) {
+        groupContainer2.addEventListener("click", function (e) {
+          window.location.href = "./chn-mn2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

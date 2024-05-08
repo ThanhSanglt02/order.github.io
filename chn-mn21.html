@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./chn-mn21.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Allerta:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="chn-mn3">
+      <div class="chn-mn-child6"></div>
+      <div class="khng-bt-buc4">Không bắt buộc</div>
+      <div class="div27">30.000</div>
+      <div class="cam-p">Cam ép</div>
+      <div class="div28">1</div>
+      <div class="ghi-ch4">Ghi chú :</div>
+      <div class="vi-s-kt4">
+        Với sự kết hợp của những trái cam tươi chín mọng cùng những tép cam tươi
+        vui miệng và một chút tươi mát tạo nên một thức uống hoàn hảo tốt cho
+        sức khỏe
+      </div>
+      <div class="chn-mn-child7"></div>
+      <img
+        class="add-circle-outline10"
+        alt=""
+        src="./public/add-circle-outline.svg"
+      />
+
+      <img
+        class="remove-circle-outline10"
+        alt=""
+        src="./public/remove-circle-outline.svg"
+      />
+
+      <img
+        class="material-symbolsarrow-back-io-icon4"
+        alt=""
+        src="./public/materialsymbolsarrowbackiosrounded.svg"
+        id="materialSymbolsarrowBackIoIcon"
+      />
+
+      <div class="chn-mn-inner1">
+        <div class="rectangle-parent3" id="groupContainer">
+          <div class="group-child10"></div>
+          <div class="thm-vo-gi-container1">
+            <span>T</span>
+            <span class="hm-vo-gi1">hêm vào giỏ hàng -30.000</span>
+          </div>
+        </div>
+      </div>
+      <img class="chn-mn-child8" alt="" src="./public/rectangle-15@2x.png" />
+    </div>
+
+    <script>
+      var materialSymbolsarrowBackIoIcon = document.getElementById(
+        "materialSymbolsarrowBackIoIcon"
+      );
+      if (materialSymbolsarrowBackIoIcon) {
+        materialSymbolsarrowBackIoIcon.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu-nc-gii-kht.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./mn-hnh-hin-th-menu-nc-gii-kht.html";
+        });
+      }
+      </script>
+  </body>
+</html>
